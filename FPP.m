@@ -48,6 +48,7 @@ if E(x,y,2)~= inf
         end
     end
 end
+
 if E(x,y,4)~= inf
     if V(x-1,y)==0
     [T(x-1,y),idx]= min([T(x-1,y) T(x,y)+E(x,y,4)]);
