@@ -8,6 +8,7 @@ V= zeros(2*N+1,2*N+1);
 T= zeros(2*N+1,2*N+1) + inf;
 [Y,X]= meshgrid(1:2*N+1);
 T(x,y)=0;
+
 P= zeros(2*N+1);
 E= zeros(2*N+1, 2*N+1,4);
 E(:,:,1:2) = rand(2*N+1,2*N+1,2);
